@@ -6,20 +6,30 @@
 
 
 @media (max-width:1400px)  {
-
-  nav .container  .logo img, nav .container .navbar-brand{
+  nav .container .logo img,
+  nav .container .navbar-brand {
     display: flex;
+    align-items: center;
     font-size: 20px;
-    width: 5rem;
-    margin: 1rem 0; }
-    #navbar-brand {
-      display: none;
-    }
-    
-  nav ul{
+    max-width: 100%; 
+    margin: 1rem 0;
+   
+  }
+  nav .container .logo img {
+    position: relative;
+    right: 25%;
+  }
+   
+  
+  #navbar-brand {
+    display:flex;
+  }
+
+  nav ul {
     display: flex;
+    font-size: 17px;
     transform: translateX(20%);
-    
+   
   }
   .menu-head{
     transform: translateX(-20%);
